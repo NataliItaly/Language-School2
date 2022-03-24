@@ -49,12 +49,10 @@ body {
 body,
 a,
 .button {
-  font-family: Inter;
-  font-family: "Inter", sans-serif;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Arvo", serif;
   font-size: 20px;
   line-height: 40px;
-  color: #e5cf7d;
+  color: #ffffff;
 }
 a:hover {
   color: #bdae82;
@@ -76,13 +74,13 @@ header,
 h1 span,
 .levels .section-title span,
 .price-item .button:hover {
-  background-color: #008b8b;
+  background-color: #1f7558;
 }
 
 /*------------------------header------------------------*/
 
 .header {
-  height: 140px;
+  height: 196px;
   width: 100%;
   padding-top: 0;
   padding-bottom: 0;
@@ -95,12 +93,12 @@ h1 span,
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
   width: 100%;
 }
 .logo {
   width: 15%;
+  height: 100%;
+  align-self: flex-start;
   height: 100px;
   cursor: pointer;
   transition: 1s all ease;
@@ -108,30 +106,30 @@ h1 span,
 .logo-img {
   width: 100%;
   height: auto;
-  border: 4px solid #e3ce7f;
-  border-radius: 50%;
+  /* border: 4px solid #e3ce7f;
+  border-radius: 50%; */
 }
 .logo:hover {
   transform: rotateY(180deg);
 }
 .app-contacts {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  width: 150px;
+  align-items: flex-start;
 }
 .call {
   display: block;
 }
-.app-img {
-  width: 40px;
-  height: 40px;
-  vertical-align: middle;
+
+.app-contact-link,
+.app-contacts li {
+  color: #ffffff;
+  font-size: 15px;
 }
 
-.app-img:hover {
-  border-radius: 15px;
-  border: 2px solid #f1e3ae;
+.app-contact-link:hover {
+  text-decoration: underline;
 }
 
 .header-nav {
@@ -144,7 +142,7 @@ h1 span,
   justify-content: space-around;
 }
 .nav-link {
-  color: #e5cf7d;
+  color: #ffffff;
   transition: 0.6s;
   letter-spacing: 0.1px;
 }
@@ -153,14 +151,14 @@ h1 span,
   color: #e9e0c6;
 }
 .switch {
-  width: 90px;
+  width: 170px;
   font-size: 22px;
   letter-spacing: 0.7px;
   display: flex;
   justify-content: space-between;
 }
 .switch-span {
-  color: #e5cf7d;
+  color: #ffffff;
   padding-top: 3px;
   display: block;
 }
@@ -172,7 +170,7 @@ h1 span,
   cursor: pointer;
 }
 .burger-line {
-  background: #e5cf7d;
+  background: #ffffff;
   height: 2px;
   width: 100%;
   display: block;
@@ -193,9 +191,10 @@ h1 span,
   background-image: url("../assets/img/world-map.png");
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position-y: 10px;
 }
 .school {
-  margin-top: 140px;
+  margin-top: 196px;
   padding-top: 40px;
   padding-bottom: 0;
   padding-top: 0;
@@ -203,7 +202,7 @@ h1 span,
 .school h1 {
   text-align: center;
   text-transform: uppercase;
-  color: #e5cf7d;
+  color: #ffffff;
   font-size: 60px;
   line-height: 90px;
 }
@@ -223,6 +222,7 @@ h1 span {
 }
 .school .container {
   position: relative;
+  padding-top: 40px;
 }
 .school-text {
   padding-top: 10px;
@@ -244,15 +244,15 @@ h1 span {
 }
 
 .switch-btn.current-language {
-  background-color: #168fa9;
+  background-color: #12938d;
 }
 
 .switch-btn {
   width: 50px;
   height: 50px;
   border-radius: 15px;
-  background-color: transparent;
-  color: #e5cf7d;
+  background-color: #15663d96;
+  color: #ffffff;
   font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -277,7 +277,7 @@ h1 span {
   height: 80px;
   padding-top: 20px;
   font-size: 40px;
-  color: #e5cf7d;
+  color: #ffffff;
   margin: 0 auto 60px auto;
   position: relative;
   text-align: center;
@@ -285,7 +285,7 @@ h1 span {
 .section-title::before,
 .section-title::after {
   content: "";
-  border-bottom: 1px solid #e5cf7d;
+  border-bottom: 1px solid #ffffff;
   position: absolute;
   top: 40px;
 }
@@ -338,7 +338,7 @@ h1 span {
   background-repeat: no-repeat;
   background-size: 70px;
   background-position: center 30px;
-  filter: invert(78%) sepia(40%) saturate(431%) hue-rotate(6deg) brightness(106%) contrast(80%);
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(92deg) brightness(104%) contrast(103%);
 }
 
 .adult {
@@ -346,7 +346,7 @@ h1 span {
   background-repeat: no-repeat;
   background-size: 78px;
   background-position: center 30px;
-  filter: invert(78%) sepia(40%) saturate(431%) hue-rotate(6deg) brightness(106%) contrast(80%);
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(92deg) brightness(104%) contrast(103%);
 }
 
 .business {
@@ -354,7 +354,7 @@ h1 span {
   background-repeat: no-repeat;
   background-size: 80px;
   background-position: center 30px;
-  filter: invert(78%) sepia(40%) saturate(431%) hue-rotate(6deg) brightness(106%) contrast(80%);
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(92deg) brightness(104%) contrast(103%);
 }
 
 .travel {
@@ -362,7 +362,7 @@ h1 span {
   background-repeat: no-repeat;
   background-size: 78px;
   background-position: center 30px;
-  filter: invert(78%) sepia(40%) saturate(431%) hue-rotate(6deg) brightness(106%) contrast(80%);
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(92deg) brightness(104%) contrast(103%);
 }
 
 .work {
@@ -370,7 +370,7 @@ h1 span {
   background-repeat: no-repeat;
   background-size: 74px;
   background-position: center 30px;
-  filter: invert(78%) sepia(40%) saturate(431%) hue-rotate(6deg) brightness(106%) contrast(80%);
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(92deg) brightness(104%) contrast(103%);
 }
 
 .meeting {
@@ -378,7 +378,7 @@ h1 span {
   background-repeat: no-repeat;
   background-size: 88px;
   background-position: center 30px;
-  filter: invert(78%) sepia(40%) saturate(431%) hue-rotate(6deg) brightness(106%) contrast(80%);
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(92deg) brightness(104%) contrast(103%);
 }
 
 .globe {
@@ -386,7 +386,7 @@ h1 span {
   background-repeat: no-repeat;
   background-size: 98px;
   background-position: center 25px;
-  filter: invert(78%) sepia(40%) saturate(431%) hue-rotate(6deg) brightness(106%) contrast(80%);
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(92deg) brightness(104%) contrast(103%);
 }
 
 .certificate {
@@ -394,7 +394,7 @@ h1 span {
   background-repeat: no-repeat;
   background-size: 94px;
   background-position: center 30px;
-  filter: invert(78%) sepia(40%) saturate(431%) hue-rotate(6deg) brightness(106%) contrast(80%);
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(92deg) brightness(104%) contrast(103%);
 }
 
 .interview {
@@ -402,13 +402,13 @@ h1 span {
   background-repeat: no-repeat;
   background-size: 74px;
   background-position: center 30px;
-  filter: invert(78%) sepia(40%) saturate(431%) hue-rotate(6deg) brightness(106%) contrast(80%);
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(92deg) brightness(104%) contrast(103%);
 }
 
 /*------------------------levels------------------------*/
 
 .levels {
-  color: #e5cf7d;
+  color: #ffffff;
 }
 .levels .section-title {
   margin-top: 100px;
@@ -430,7 +430,7 @@ h1 span {
   content: "";
   width: 200px;
   height: 1px;
-  background-color: #e5cf7d;
+  background-color: #ffffff;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -500,7 +500,7 @@ h1 span {
   font-size: 20px;
   line-height: 48px;
   text-align: center;
-  color: #e5cf7d;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 .price-description p {
@@ -569,7 +569,7 @@ h1 span {
 .send-btn {
   width: 400px;
   height: 70px;
-  color: #166272;
+  color: #ffffff;
   font-size: 20px;
   line-height: 40px;
   display: flex;
@@ -582,10 +582,27 @@ h1 span {
 .send-btn:hover {
   box-shadow: inset 20em 0 0 0 #19788d;
   border: 1px solid #a1946d;
-  color: #e5cf7d;
+  color: #ffffff;
 }
 .contacts .flag {
   width: 60px;
+}
+
+.en-btn {
+  background-color: #e10b0b;
+  color: #ffffff;
+}
+
+.fr-btn {
+  background-color: #f5ab24;
+}
+
+.es-btn {
+  background-color: #34cb34;
+}
+
+.de-btn {
+  background-color: #976de9;
 }
 
 /*--------------------------footer--------------------------*/
@@ -601,11 +618,11 @@ h1 span {
   align-items: center;
 }
 .footer-data {
-  color: #e5cf7d;
+  color: #ffffff;
 }
 .footer-contacts a {
   display: block;
-  color: #e5cf7d;
+  color: #ffffff;
   cursor: pointer;
 }
 .footer-contacts a:hover {
@@ -664,7 +681,7 @@ h1 span {
     position: absolute;
     width: 100%;
     height: 100vh;
-    background-color: #e5cf7d;
+    background-color: #ffffff;
     opacity: 0.9;
     z-index: 5;
     top: 0;

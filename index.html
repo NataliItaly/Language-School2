@@ -8,14 +8,9 @@
     <link rel="shortcut icon" href="assets/shool-favicon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@400;700&family=Petemoss&family=Poppins:ital,wght@0,700;1,400&display=swap"
-        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter&family=Merriweather:wght@700&family=Open+Sans:wght@400;700&family=Petemoss&family=Poppins:ital,wght@0,700;1,400&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Language School</title>
 
@@ -25,30 +20,32 @@
     <header class="header">
         <div class="container">
             <div class="logo">
-                <img src="assets/img/logo-ru.png" alt="AVSchool logo" class="logo-img">
+                <img src="assets/img/logo-en.png" alt="AVSchool logo" class="logo-img">
             </div>
-            <div class="app-contacts">
-                <a href="https://wtsapp.online/37258027334" class="call whatsapp">
-                    <img src="assets/img/whatsapp.svg" alt="WhatsApp call" class="app-img">
-                </a>
-                <a href="https://vibr.cc/37258027334" class="call viber">
-                    <img src="assets/img/viber.svg" alt="Viber call" class="app-img">
-                </a>
-                <a href="https://t.me/@nataliya_krylova_it" class="call telegram">
-                    <img src="assets/img/telegram.svg" alt="Telegram call" class="app-img">
-                </a>
-            </div>
+            <ul class="app-contacts">
+                <li>
+                    <a href="tel:+380661031770" class="app-contact-link">+380661031770</a> Viber, Telegram
+                </li>
+                <li>
+                    <a href="tel:+37258027334" class="app-contact-link">+37258027334</a> Viber
+                </li>
+                <li>
+                    <a href="skype:+380956960783?call" class="app-contact-link">Anna Profesora de Español Skype</a>
+                </li>
+            </ul>
             <nav class="header-nav">
                 <ul class="nav-list">
-                    <li><a href="#levels" class="nav-link" data-transcription="levels">Уровни</a></li>
-                    <li><a href="#price" class="nav-link" data-transcription="price">Цены</a></li>
-                    <li><a href="#contacts" class="nav-link" data-transcription="contacts">Контакты</a></li>
+                    <li><a href="#levels" class="nav-link" data-transcription="levels">Levels</a></li>
+                    <li><a href="#price" class="nav-link" data-transcription="price">Prices</a></li>
+                    <li><a href="#contacts" class="nav-link" data-transcription="contacts">Contacts</a></li>
                 </ul>
             </nav>
             <div class="switch">
-                <button class="switch-btn current-language" data-language="ru">ru</button>
-                <span class="switch-span">/</span>
-                <button class="switch-btn" data-language="en">en</button>
+                <button class="switch-btn  current-language" data-language="en">en</button>
+                <button class="switch-btn" data-language="uk">uk</button>
+                <button class="switch-btn" data-language="ru">ru</button>
+                <button class="switch-btn" data-language="fr">fr</button>
+                <button class="switch-btn" data-language="es">es</button>
             </div>
             <div class="burger">
                 <span class="burger-line"></span>
@@ -63,8 +60,9 @@
         <div class="bg-wrapper">
             <section class="school" id="school">
                 <div class="container">
-                    <h1 class="school-title"><span data-transcription="school-title1">Школа языков</span> <br>
-                        <span data-transcription="school-title2" class="school-title-span">Интенсив онлайн курс</span>
+                    <h1 class="school-title"><span data-transcription="school-title1">Language School</span> <br>
+                        <span data-transcription="school-title2" class="school-title-span">Intensive Online
+                            Course</span>
                         <br>
                     </h1>
                     <div class="flags-wrapper">
@@ -77,70 +75,79 @@
             </section>
             <section class="levels" id="levels">
                 <div class="container">
-                    <h2 class="section-title" data-transcription="levels"><span>Уровни</span></h2>
-                    <div class="levels-items-wrapper">
-                        <div class="levels-item">
-                            <h4 class="levels-item-title"><span class="levels-title-span">0</span> <br> <span
-                                    data-transcription="level-title-1">Для начинающих.</span></h4>
-                            <p class="levels-item-text" data-transcription="level-text-1">Никогда не изучали
-                                иностранный язык ранее.</p>
-                        </div>
-                        <div class="levels-item">
-                            <h4 class="levels-item-title">A<span class="levels-title-span">1</span> <br> <span
-                                    data-transcription="level-title-2">Я знакомлюсь с языком.</span>
-                            </h4>
-                            <p class="levels-item-text" data-transcription="level-text-2">Я понимаю и могу использовать
-                                простые разговорные выражения, связанные с повседневной жизнью, могу строить простые
-                                предложения, связанные с конкретными потребностями.</p>
-                        </div>
-                        <div class="levels-item">
-                            <h4 class="levels-item-title">A<span class="levels-title-span">2</span> <br> <span
-                                    data-transcription="level-title-3">Я понимаю простые идеи.</span>
-                            </h4>
-                            <p class="levels-item-text" data-transcription="level-text-3">Я могу понять отдельные
-                                предложения и выражения связанные с повседневной средой: семья, работа, учеба. Я могу
-                                изъясняться на простые темы.
-                            </p>
-                        </div>
-                        <div class="levels-item">
-                            <h4 class="levels-item-title">B<span class="levels-title-span">1</span> <br> <span
-                                    data-transcription="level-title-4">Я могу общаться в
-                                    иностранной среде.</span></h4>
-                            <p class="levels-item-text" data-transcription="level-text-4">Я могу понять основные идеи в
-                                тексте или звуковом сообщении, если в нем использован стандартный и ясно
-                                сформулированный
-                                язык. Я могу объясниться в большинстве ситуаций в путешествии. Я могу рассказать о
-                                каком-то
-                                событии или историю о себе.</p>
-                        </div>
-                        <div class="levels-item">
-                            <h4 class="levels-item-title">B<span class="levels-title-span">2</span> <br> <span
-                                    data-transcription="level-title-5">Я могу общаться без
-                                    затруднений.</span></h4>
-                            <p class="levels-item-text" data-transcription="level-text-5">Я понимаю большую часть
-                                сложных
-                                сообщений на конкретные или абстрактные темы. Я могу без труда общаться с человеком,
-                                для
-                                которого этот язык – родной, могу понятно и подробно говорить на большое количество
-                                разнообразных тем.</p>
-                        </div>
-                        <div class="levels-item">
-                            <h4 class="levels-item-title">C<span class="levels-title-span">1</span> <br> <span
-                                    data-transcription="level-title-6">Я могу выражать свое
-                                    мнение
-                                    на свободную тему спонтанно, используя сложные грамматические структуры,
-                                    синонимы.</span>
-                            </h4>
-                            <p class="levels-item-text" data-transcription="level-text-6">Я могу читать неадаптированные
-                                статьи
-                                и тексты на английском языке с полным пониманием смысла и воспринимать длинные отрывки,
-                                в
-                                том
-                                числе на не стандартном английском языке (особые акценты, наречия) с полным
-                                пониманием услышанного.</p>
-                        </div>
-                    </div>
-                </div>
+                    <h2 class="section-title" data-transcription="levels"><span>Levels</span></h2>
+                    <ul class="levels-items-wrapper">
+                        <li class="levels-item">
+                            <h4 class="levels-item-title"><span class="levels-title-span"
+                                    data-transcription="level-text-title">from 0 till А</span>1 </h4>
+                            <div class="levels-item-text">
+                                <p data-transcription="level-text-1">Вы только начинаете свой путь в изучение
+                                    иностранного языка
+                                    (английского, французского,испанского или немецкого).</p>
+                                <p data-transcription="level-text-2">Вы не знаете с чего начать и как максимально быстро
+                                    достичь своей мечты?</p>
+                                <p data-transcription="level-text-3">Как научиться читать? Как правильно учить слова и
+                                    фразы, чтобы они запоминались быстро и их можно было использовать в
+                                    жизни? Как расприделить время и усилия, чтобы не потратить их впустую? На все эти
+                                    вопросы мы готовы дать вам ответ.</p>
+                                <p data-transcription="level-text-4">Процесс обучения начальном этапе можно сравнить с
+                                    тем как делают первые
+                                    шаги в серфинге.У вас есть лишь огромное желание научиться чему-то новому.Вы
+                                    преобретаете инвентарь и базовые навыки с
+                                    опытным наставником делаете первые шаги.Вам безумно страшно, но вы знаете,
+                                    наверняка,что сможете.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="levels-item">
+                            <h4 class="levels-item-title">A<span class="levels-title-span">2</span></h4>
+                            <div class="levels-item-text">
+                                <p data-transcription="level-text-5">У вас уже есть определенное представление о языке.
+                                    Вы разговариваете на иностранном языке простыми фразами.( можете
+                                    спросить и ответить на поставленные не сложные вопросы на бытовые темы).</p>
+                                <p data-transcription="level-text-6">Вы плаваете в этом бескраем океане на небольшой
+                                    глубине, но уже сейчас вы понимаете, что у вас уже есть определенные
+                                    результаты.</p>
+                            </div>
+                        </li>
+                        <li class="levels-item">
+                            <h4 class="levels-item-title">B<span class="levels-title-span">1</span></h4>
+                            <div class="levels-item-text">
+                                <p class="levels-item-text" data-transcription="level-text-7">Вы уже можете выразить
+                                    свои
+                                    мысли , но иногда у вас возникают небольшие сложности.Сложный и тернистый был ваш
+                                    путь
+                                    на пути к успеху.Остался последний шаг.</p>
+                                <p class="levels-item-text" data-transcription="level-text-8">Вы уже можете держаться на
+                                    доске и приобрели опыт в покорениисредние по размеру волн.</p>
+                            </div>
+                        </li>
+                        <li class="levels-item">
+                            <h4 class="levels-item-title">B<span class="levels-title-span">2</span></h4>
+                            <div class="levels-item-text">
+                                <p class="levels-item-text" data-transcription="level-text-9">
+                                    Вас можно назвать прекрасным собеседником, потому что вы можете обсудить не только
+                                    бытовые темы, но и политику,экономику
+                                    и многое другое.</p>
+                                <p class="levels-item-text" data-transcription="level-text-10">Вы уверенно держитесь на
+                                    доске
+                                    и ловите большую волну, и даже готовы поделиться своим знанием с другими людьми.</p>
+                            </div>
+                        </li>
+                        <li class="levels-item">
+                            <h4 class="levels-item-title">C<span class="levels-title-span">1</span></h4>
+                            <div class="levels-item-text">
+                                <p class="levels-item-text" data-transcription="level-text-11">Вы достигли уровня
+                                    профессионала. Не существует темы, на которую вы не можете обсудить.</p>
+                                <p class="levels-item-text" data-transcription="level-text-12">Вы можете работать или
+                                    учиться заграницей. Кроме того, может
+                                    даже рассматриваете возможность переезда туда.</p>
+                                <p class="levels-item-text" data-transcription="level-text-13">Вы покоряете огромные
+                                    волны и вам нет равных в этом.</p>
+                            </div>
+                        </li>
+
+                    </ul>
             </section>
         </div>
 
@@ -191,25 +198,25 @@
                 <div class="contacts-container">
                     <h2 class="section-title" id="contacts" data-transcription="contact-me">Свяжитесь с нами</h2>
                     <form action="mailto:eleniasmirnova@gmail.com" class="contacts-form">
-                        <button type="submit" class="button gold-btn send-btn">
+                        <button type="submit" class="button gold-btn send-btn en-btn">
                             <span data-transcription="english-lesson">заказать курс английского</span>
                             <img src="assets/img/flags/uk.ico" alt="english language" class="flag">
                         </button>
                     </form>
                     <form action="mailto:eleniasmirnova@gmail.com" class="contacts-form">
-                        <button type="submit" class="button gold-btn send-btn">
+                        <button type="submit" class="button gold-btn send-btn fr-btn">
                             <span data-transcription="french-lesson">заказать курс французского</span>
                             <img src="assets/img/flags/france.ico" alt="french language" class="flag">
                         </button>
                     </form>
-                    <form action="mailto:eleniasmirnova@gmail.com" class="contacts-form">
-                        <button type="submit" class="button gold-btn send-btn">
+                    <form action="mailto:aalmavivaa@gmail.com" class="contacts-form">
+                        <button type="submit" class="button gold-btn send-btn es-btn">
                             <span data-transcription="spanish-lesson">заказать курс испанского</span>
                             <img src="assets/img/flags/germany.ico" alt="german language" class="flag">
                         </button>
                     </form>
-                    <form action="mailto:eleniasmirnova@gmail.com" class="contacts-form">
-                        <button type="submit" class="button gold-btn send-btn">
+                    <form action="mailto:aalmavivaa@gmail.com" class="contacts-form">
+                        <button type="submit" class="button gold-btn send-btn de-btn">
                             <span data-transcription="german-lesson">заказать курс немецкого</span>
                             <img src="assets/img/flags/spain.ico" alt="spanish language" class="flag">
                         </button>
