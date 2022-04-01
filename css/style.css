@@ -195,12 +195,12 @@ h1 span,
 
 /*------------------------bg-wrapper-----------------------*/
 
-.bg-wrapper {
+/* .bg-wrapper {
   background-image: url("../assets/img/world-map.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position-y: 10px;
-}
+} */
 .school {
   margin-top: 196px;
   padding-top: 40px;
@@ -458,6 +458,7 @@ h1 span {
   line-height: 36px;
   text-align: center;
   margin: 20px auto 10px auto;
+  text-align: justify;
 }
 .levels-item-img {
   height: 50px;
