@@ -249,7 +249,7 @@ h1 span {
   border-radius: 15px;
   transition: 0.6s;
   position: relative;
-  border: 1px solid #19788d;
+  border: 1px solid #a1946d;
 }
 
 .switch-btn.current-language {
@@ -489,9 +489,10 @@ h1 span {
   padding: 43px 0;
   border: 2px solid #a1946d;
   transition: 0.6s;
+  border-radius: 20px;
 }
 .price-item:hover {
-  transform: scale(1.1);
+  transform: scale(1.02);
   border: none;
 }
 .price-item-title {
@@ -581,7 +582,7 @@ h1 span {
   height: 70px;
   color: #ffffff;
   font-size: 20px;
-  line-height: 40px;
+  line-height: 26px;
   display: flex;
   padding-left: 10px;
   padding-right: 10px;
