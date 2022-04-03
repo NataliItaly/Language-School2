@@ -458,7 +458,7 @@ h1 span {
   line-height: 36px;
   text-align: center;
   margin: 20px auto 10px auto;
-  text-align: justify;
+  text-align: left;
 }
 .levels-item-img {
   height: 50px;
